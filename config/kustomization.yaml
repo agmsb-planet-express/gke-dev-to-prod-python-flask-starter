@@ -1,0 +1,6 @@
+commonLabels:
+  env: dev
+bases:
+- https://github.com/agmsbush/gke-dev-to-prod-blueprints/resources
+patchesStrategicMerge:
+- configMap.yaml
