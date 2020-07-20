@@ -16,7 +16,7 @@ profiles:
   deploy:
     kustomize:
       paths:
-      - config
+      - ../config
 - name: prod
   deploy:
     kustomize:
